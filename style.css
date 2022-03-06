@@ -1,0 +1,93 @@
+body{
+    background-color: #FBF2E1;
+    text-align: center;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color:rgba(51, 108, 155, 0.8);
+    display: inline-block;
+    padding: 10px;
+
+    box-sizing: border-box;
+    background-color: #ffc559;
+    border-radius: 50px;
+
+}
+nav{
+    box-sizing: border-box;
+    background-color: #ffc559;
+    border-radius: 50px;
+}
+a:visited{
+    text-decoration: none;
+    color:rgba(51, 108, 155, 0.6);
+}
+
+a:hover{
+    color: #FFBA39;
+    background-color: rgba(51, 108, 155, 0.8);
+}
+
+h1{
+    color:rgba(51, 108, 155, 0.8);
+}
+
+.header h1{
+    font-size: 200%;
+}
+
+.about{
+    background-color: rgba(51, 108, 155, 0.7);
+    padding: 1px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.about p{
+    color: #FFBA39;
+    font-size: 150%;
+}
+
+img{
+    max-width: 250px;
+    padding-left: 20px;  
+    transition-duration: 1s;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+img:hover{
+    transform: scale(2);
+}
+
+.homeImg img:hover{
+    transform:none;
+}
+
+.homeContainer{
+    position: relative;
+    text-align: center;
+}
+
+.homeAbout{
+    color: #FFBA39;
+    max-width: 50%;
+    position: absolute;
+    top: 20px;
+    left: 25%;
+    background-color: rgba(51, 108, 155, 0.55);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(51, 108, 155, 0.6);
+    color: #FFBA39;
+    padding: 5px;
+    box-sizing: border-box;
+}
